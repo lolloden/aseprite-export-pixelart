@@ -2,9 +2,13 @@
 Aseprite script to export layer in outlined pixel-art
 
 Usage:
+
 1- download trim_pretty.lua
+
 2- put it in the "scripts" folder (inside Aseprite main folder)
+
 3- open Aseprite
+
 4- make sure you have a leyer structure like this
 
 ![5](https://github.com/lolloden/aseprite-export-pixelart/assets/40100281/4a5bb0da-6f36-4ae0-ad05-7c5dcfb654fb)
