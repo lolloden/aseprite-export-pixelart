@@ -48,7 +48,7 @@ local fixed_size = 15
 -- outline width in pixels
 local outl_width = 11
 
--- delta between most west point x and outline position.x
+-- outline cel position x
 local delta_left = out_cel.position.x 
 
 -- delta between most east point x and outline position.x
