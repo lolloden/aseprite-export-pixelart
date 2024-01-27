@@ -48,7 +48,9 @@ local fixed_size = 15
 -- outline width in pixels
 local outl_width = 11
 
--- outline cel position x
+-- Let's use outline's cel position x value as a fixed reference. 
+-- Its value depends on the position of the current object.
+-- The actual canvas is trimmed at the largest object in the sketch, and so it's zero if the object is inside the outline, positive if it's outside.
 local delta_left = out_cel.position.x 
 
 -- delta between most east point x and outline position.x
