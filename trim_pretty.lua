@@ -131,8 +131,8 @@ local final_img = Image(spr.bounds.width, spr.bounds.height, obj.colorMode)
 final_img:drawImage(obj, cel.position)
 
 -- use the group name for the file name
--- parent = string.gsub(parent.name, "[^%S\n]+", "")
+-- local filename = string.gsub(parent.name, "[^%S\n]+", "")
 
 -- save it
 saveImage(final_img, layer.name)
--- saveImage(final_img, parent)
+-- saveImage(final_img, filename)
