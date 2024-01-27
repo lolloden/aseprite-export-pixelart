@@ -1,5 +1,5 @@
 # aseprite-export-pixelart
-Aseprite script to export and scale layer in outlined pixel-art
+Aseprite script to scale and export single layer in outlined pixel-art.
 
 Variables to set:
 
