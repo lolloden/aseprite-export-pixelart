@@ -1,7 +1,7 @@
 -- This script exports single layer for outlined pixel art
 -- by Lorenzo Quaglieri
 
--- crops selection (needs a selection)
+-- crops selection (needs a marquee selection)
 app.command.CropSprite() 
  
 -- trim to bounds
