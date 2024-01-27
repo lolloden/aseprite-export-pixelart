@@ -1,6 +1,16 @@
 # aseprite-export-pixelart
 Aseprite script to export and scale layer in outlined pixel-art
 
+Variables to set:
+
+final_size : canvas size before scaling up
+
+fixed_size : a fixed space to use as a reference
+
+outl_width : outline width (just count the pixel number)
+
+=========================================================
+
 Usage:
 
 1- download trim_pretty.lua
