@@ -48,19 +48,19 @@ local fixed_size = 15
 -- outline width in pixels
 local outl_width = 11
 
--- Let's use outline's cel position x value as a fixed reference. 
--- Its value depends on the position of the current object.
--- The actual canvas is trimmed at the largest object in the sketch, and so it's zero if the object is inside the outline, positive if it's outside.
-local delta_left = out_cel.position.x 
+-- Let's use outline's cel position x value as a fixed reference point. 
+-- The actual canvas is trimmed at the largest object in the sketch and so its value depends on the x position of the current object (object to save).
+-- It's zero if the object is inside the outline, positive if it's outside.
+local outside_left = out_cel.position.x 
 
--- delta between most east point x and outline position.x
-local delta_right = spr.bounds.width - delta_left - outl_width 
+-- Let's check if some pixels are outside the outline, right side
+local outside_right = spr.bounds.width - outside_left - outl_width 
 
--- pixels to add left in new canvas size
-local left_size = fixed_size - delta_left
+-- pixels to add left side in new canvas size
+local left_space = fixed_size - outside_left
 
--- pixels to add right in new canvas size
-local right_size = final_size - left_size - delta_left - outl_width - delta_right
+-- pixels to add right side in new canvas size
+local right_space = final_size - left_space - outside_left - outl_width - outside_right
 
 -- pixels to add top in new canvas size	
 local c_deltay = final_size - spr.bounds.height
