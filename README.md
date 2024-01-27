@@ -17,7 +17,7 @@ Usage:
 
 2- put it in the "scripts" folder (inside Aseprite main folder)
 
-3- open Aseprite
+3- open your pixel-art file in Aseprite
 
 4- make sure you have a layer structure like this
 
