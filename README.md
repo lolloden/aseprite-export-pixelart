@@ -39,7 +39,7 @@ Usage:
 
 8- save image
 
-9- repeat for all layers
+9- repeat for all layers (don't forget to get back to initial state, before canvas and sprite re-sizing)
 
 ![6](https://github.com/lolloden/aseprite-export-pixelart/assets/40100281/08ecfaac-a444-4b9e-b7d2-fd5747c500d2)
 
