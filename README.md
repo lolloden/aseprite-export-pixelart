@@ -1,6 +1,8 @@
 # aseprite-export-pixelart
 Aseprite script to scale and export single layer in outlined pixel-art.
 
+Free software (buy me a coffe ;)  ->  https://www.buymeacoffee.com/pippoplutog)
+
 Variables to set:
 
 final_size : canvas size before scaling up
