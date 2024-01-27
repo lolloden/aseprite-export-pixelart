@@ -68,9 +68,9 @@ local c_deltay = final_size - spr.bounds.height
 -- set canvas size
 app.command.CanvasSize {
 	  ui=false,
-	  left=left_size,
+	  left=left_space,
 	  top=c_deltay,
-	  right=right_size,
+	  right=right_space,
 	  bottom=0, --bounds=Rectangle,
 	  trimOutside=true
 	}
