@@ -39,10 +39,10 @@ end
 local out_cel = getLayerCel("outline")
 -- app.alert("outline cell X" .. out_cel.position.x)
 
--- canvas size variables for resizing
+-- canvas size (square) in pixels
 local final_size = 50
 
--- fixed size to add 
+-- let's choose a fixed size to add left
 local fixed_size = 15
 
 -- outline width in pixels
@@ -130,5 +130,5 @@ local final_img = Image(spr.bounds.width, spr.bounds.height, obj.colorMode)
 final_img:drawImage(obj, cel.position)
 
 parent = string.gsub(parent.name, "[^%S\n]+", "")
--- saveImage(final_img, layer.name)
-saveImage(final_img, parent)
+saveImage(final_img, layer.name)
+-- saveImage(final_img, parent)
